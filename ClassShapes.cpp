@@ -1,4 +1,4 @@
-#include "ClassShapes.h"
+/*#include "ClassShapes.h"
 
 Shapes::Shapes()
 {
@@ -242,3 +242,5 @@ string Triangle_sides::to_string() const
 {
 
 }
+
+*/
