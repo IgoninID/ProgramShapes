@@ -19,6 +19,11 @@ Shapes::Shapes(string& Name)
 	set_name(Name);
 }
 
+int Shapes::number() const
+{
+	return 1;
+}
+
 /// <summary>
 /// метод ввода имени
 /// правило ввода: вводимое имя не должно быть пустым или просто пробелом
@@ -87,6 +92,11 @@ Rectangle::Rectangle(string& Name, double side1, double side2)
 {
 		set_name(Name);
 		set_all_sides(side1, side2);
+}
+
+int Rectangle::number() const
+{
+	return 0;
 }
 
 /// <summary>
