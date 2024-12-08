@@ -29,6 +29,8 @@ public: // публичная область
 	/// <param name="name - имя"></param>
 	Shapes(string& name);
 
+	int number() const;
+
 	/// <summary>
 	/// метод ввода имени
 	/// правило ввода: вводимое имя не должно быть пустым или просто пробелом
@@ -434,6 +436,8 @@ public: // публичная область
 	/// <param name="side1 - длина прямоугольника"></param>
 	/// <param name="side2 - ширина прямоугольника"></param>
 	Rectangle(string& name, double side1, double side2);
+
+	int number() const;
 
 	/// <summary>
 	/// метод ввода всех сторон прямоугольника
