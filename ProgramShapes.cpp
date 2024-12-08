@@ -28,5 +28,5 @@ int main()
 	cout << figure->number() << "\n"; // вызов метода из базового
 	cout << dynamic_cast<Rectangle*>(figure)->number() << "\n"; // вызов метода из производного
 	cout << dynamic_cast<Rectangle*>(figure)->get_side1() << "\n"; // вызов метода из производного, которого нет в базовом классе
-	
+	cout << dynamic_cast<Rectangle*>(figure)->get_side1() << "\n"; // вызов метода из производного для указателя на базовый
 }
